@@ -1,13 +1,13 @@
 package main
 
 import (
-	"log"
-	"net/http"
-	"os"
+    "log"
+    "net/http"
+    "os"
 
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/playground"
-	"github.com/Momo-ASKR/kanban/server/graph"
+    "github.com/99designs/gqlgen/graphql/handler"
+    "github.com/99designs/gqlgen/graphql/playground"
+    "github.com/Momo-ASKR/kanban/server/graph"
     "github.com/Momo-ASKR/kanban/server/graph/generated"
     _ "github.com/go-sql-driver/mysql"
     "github.com/jinzhu/gorm"
