@@ -10,7 +10,7 @@ services:
       LANG: ja_JP.UTF-8
       TZ: Asia/Tokyo
     volumes:
-      - ./server/:/server
+      - ./server/:/go/src/github.com/Momo-ASKR/kanban/server
   db:
     image: mysql:5.7.24
     ports:

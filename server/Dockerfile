@@ -1,6 +1,6 @@
 FROM golang:1.14-alpine
 
-WORKDIR /server
+WORKDIR /go/src/github.com/Momo-ASKR/kanban/server
 
 COPY . .
 
